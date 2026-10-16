@@ -1,0 +1,19 @@
+{
+  "sample": "C-PBDAZ-300",
+  "source": "Supporting Information S-5, Table S.2",
+  "m": 3,
+  "n": 1,
+  "a": [
+    -2466.79553,
+    626.49851,
+    -42.58868,
+    2.78892
+  ],
+  "b": [
+    11.82664,
+    -1.26531
+  ],
+  "reported_q0_kj_mol_rounded": 21,
+  "reported_r2": 0.99901,
+  "reported_reduced_chi2": 0.000500934
+}

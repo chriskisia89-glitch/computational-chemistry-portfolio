@@ -1,0 +1,76 @@
+{
+  "paper_doi": "10.1021/acs.chemmater.3c01717",
+  "supporting_information_doi": "10.1021/acs.chemmater.3c01717.s001",
+  "figshare_article_id": 25019778,
+  "figshare_file_id": 44106648,
+  "source_url": "https://api.figshare.com/v2/articles/25019778",
+  "download_url": "https://ndownloader.figshare.com/files/44106648",
+  "source_pdf_md5": "448ef6d3fb603024d3abef4c65af75e4",
+  "source_pdf_sha256": "7e498ef68fa9522cd5d5cc43a44b16f4f56247094f06e5cf01bf13b90a6916aa",
+  "source_page": "S-5",
+  "source_panel": "Table S.2, C-PBDAZ-300, upper-left plot",
+  "source_authors": [
+    "Vaibhav A. Edlabadkar",
+    "Rushi U. Soni",
+    "A. B. M. Shaheen ud Doulah",
+    "Stephen Y. Owusu",
+    "Samuel Hackett",
+    "Joshua M. Bartels",
+    "Nicholas Leventis",
+    "Chariklia Sotiriou-Leventis"
+  ],
+  "source_license": "CC BY-NC 4.0",
+  "source_license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "raster_size_px": [
+    1952,
+    1259
+  ],
+  "x_tick_pixels": [
+    563.5,
+    742.0,
+    920.5,
+    1100.5
+  ],
+  "x_tick_values_mmol_g": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "y_tick_pixels": [
+    52.0,
+    134.5,
+    218.5,
+    301.5,
+    384.5,
+    466.5,
+    550.5
+  ],
+  "y_tick_values": [
+    7.0,
+    6.5,
+    6.0,
+    5.5,
+    5.0,
+    4.5,
+    4.0
+  ],
+  "x_pixel_equals_slope_times_loading_plus_intercept": [
+    178.94999999999993,
+    563.2000000000002
+  ],
+  "y_pixel_equals_slope_times_logordinate_plus_intercept": [
+    -166.10714285714286,
+    1214.7321428571424
+  ],
+  "point_count": 41,
+  "counts_by_temperature": {
+    "273": 25,
+    "298": 16
+  },
+  "data_type": "Approximate coordinates extracted from a published raster plot, including markers and connected curves; not original instrument measurements.",
+  "pressure_reference": "The panel does not state its pressure reference unit. The source log ordinate is fitted directly; inferred absolute pressure is not labelled Torr or bar.",
+  "digitization_limit": "No experimental uncertainty is assigned. Finite pixel resolution, merged markers and plotted fit lines limit interpretation; no exact reproduction of the authors' fit or reported errors is claimed.",
+  "source_retrieved_utc": "2026-10-16",
+  "algorithm": "Threshold RGB channels; Euclidean distance transform; 9x9 local maxima above radius 5 px; centroid connected maxima; red candidates thinned to >=15 px separation."
+}

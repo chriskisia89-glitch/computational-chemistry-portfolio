@@ -1,0 +1,9 @@
+{
+  "numpy_method": "column-scaled SVD least squares",
+  "scipy_method": "column-scaled QR least squares with gelsy",
+  "max_coefficient_absolute_difference": 6.343725544866174e-11,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8"
+}

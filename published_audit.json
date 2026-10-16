@@ -1,0 +1,49 @@
+{
+  "data_type": "approximate digitized coordinates from a published plot; not raw measurements",
+  "rows": 41,
+  "counts_by_temperature": {
+    "273": 25,
+    "298": 16
+  },
+  "reference_equation": "ln((P/P0)/(N/N0)) = sum(a_i*(N/N0)^i)/T + sum(b_j*(N/N0)^j); m=3,n=1",
+  "source_pressure_reference": "unspecified in the selected panel; no Torr/bar label assigned to inferred source pressures",
+  "fit_a_K": [
+    -1621.108623755187,
+    -8058.83181975179,
+    -275.8881453066682,
+    51.521831304509206
+  ],
+  "fit_b": [
+    10.216734906532668,
+    31.48470672640521
+  ],
+  "fit_rmse_log": 0.041292929234210636,
+  "fit_r2_log": 0.9956288250805183,
+  "rank": 6,
+  "condition_number_raw": 65723.07987639864,
+  "condition_number_column_scaled": 581.0239063098174,
+  "independent_qr_max_coefficient_delta": 6.59383658785373e-12,
+  "published_a_K": [
+    -2466.79553,
+    626.49851,
+    -42.58868,
+    2.78892
+  ],
+  "published_b": [
+    11.82664,
+    -1.26531
+  ],
+  "published_coefficients_rmse_against_digitized_logordinate": 1.8812970514164638,
+  "best_global_log_offset": 1.8239206445221556,
+  "published_coefficients_rmse_after_best_global_log_offset": 0.4610770848287361,
+  "published_a0_implied_q0_kj_mol": 20.51007922081251,
+  "published_rounded_q0_kj_mol": 21,
+  "digitized_refit_extrapolated_q0_kj_mol": 13.478647052178347,
+  "common_observed_loading_interval_mmol_g": [
+    0.03241128806929222,
+    0.5297569153394797
+  ],
+  "interpretation": "The printed coefficients and digitized panel disagree under the printed equation, even after one global log offset. This project does not resolve the cause, reproduce the authors' original fitting procedure, or treat the graphical refit heat as an independently validated physical measurement.",
+  "zero_coverage_note": "Q0 is an extrapolation to N=0; it is not an observed data point.",
+  "source_license": "CC BY-NC 4.0; see THIRD_PARTY_NOTICES.md"
+}

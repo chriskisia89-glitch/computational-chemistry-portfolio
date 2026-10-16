@@ -1,0 +1,80 @@
+{
+  "score_out_of_100": 100.0,
+  "passed_all_cases": true,
+  "cases": [
+    {
+      "case": "provided",
+      "passed": true,
+      "errors": [],
+      "points": 45.0,
+      "component_points": {
+        "coefficients": 12.5,
+        "heat": 10.0,
+        "pressure": 10.0,
+        "inverse": 7.5,
+        "fit_statistics": 5.0
+      }
+    },
+    {
+      "case": "validation",
+      "passed": true,
+      "errors": [],
+      "points": 45.0,
+      "component_points": {
+        "coefficients": 12.5,
+        "heat": 10.0,
+        "pressure": 10.0,
+        "inverse": 7.5,
+        "fit_statistics": 5.0
+      }
+    },
+    {
+      "case": "zero_pressure",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "negative_loading",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "nonfinite_pressure",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "zero_temperature",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "single_temperature",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "insufficient_rows",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "constant_loading",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    },
+    {
+      "case": "missing_column",
+      "passed": true,
+      "errors": [],
+      "points": 1.25
+    }
+  ]
+}
