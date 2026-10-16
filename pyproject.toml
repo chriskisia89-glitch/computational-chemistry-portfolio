@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virial-adsorption-portfolio"
+version = "1.0.0"
+description = "Two-temperature adsorption analysis, provenance audit and a controlled coding benchmark"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5", "scipy==1.17.0", "matplotlib==3.10.8"]
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+source = ["PyMuPDF==1.26.6", "Pillow==12.3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
